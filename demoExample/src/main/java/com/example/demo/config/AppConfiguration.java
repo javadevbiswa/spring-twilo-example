@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 
 /**
  * 
- * @author biswa
+ * @author Biswa Bhusan Sahoo
  *
  */
 @Configuration

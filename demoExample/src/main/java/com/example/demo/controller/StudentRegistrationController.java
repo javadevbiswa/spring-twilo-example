@@ -12,6 +12,11 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.demo.dto.StudentDto;
 import com.example.demo.service.StudentRegistrationService;
 
+/**
+ * 
+ * @author Biswa Bhusan Sahoo
+ *
+ */
 @RestController
 @RequestMapping(value = "/student")
 public class StudentRegistrationController {

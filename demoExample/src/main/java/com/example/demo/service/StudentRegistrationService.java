@@ -14,12 +14,12 @@ import com.example.demo.dto.StudentDto;
 import com.example.demo.entity.Student;
 import com.example.demo.repo.StudentRegistrationRepository;
 
+
 /**
  * 
- * @author biswa
+ * @author Biswa Bhusan Sahoo
  *
  */
-
 @Service
 public class StudentRegistrationService {
 

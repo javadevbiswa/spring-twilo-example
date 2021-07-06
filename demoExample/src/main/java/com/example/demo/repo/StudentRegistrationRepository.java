@@ -7,7 +7,7 @@ import com.example.demo.entity.Student;
 
 /**
  * 
- * @author biswa
+ * @author Biswa Bhusan Sahoo
  *
  */
 @Repository

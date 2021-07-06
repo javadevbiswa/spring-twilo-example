@@ -8,10 +8,9 @@ import com.twilio.type.PhoneNumber;
 
 /**
  * 
- * @author biswa
+ * @author Biswa Bhusan Sahoo
  *
  */
-
 public class SmsService {
 
 	private static final String SID = "ACf162368661e739209667875f0177e5ea";
@@ -29,7 +28,7 @@ public class SmsService {
 		Message messsage = Message.creator(new PhoneNumber(toMobileNumber), new PhoneNumber("+15406666355"),
 				message + String.valueOf(otp)).create();
 
-		System.out.println("Message sent Successfully to mobile Number " + toMobileNumber);
+		System.out.println("Message sent Successfully to mobile Number " + messsage);
 
 		return otp;
 	}
